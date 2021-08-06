@@ -1,0 +1,31 @@
+.base {
+  @apply
+  flex items-start space-x-4
+  px-4 py-5
+  border border-gray-200
+  shadow-lg
+  rounded
+  bg-gray-50 
+  w-96
+}
+
+.title {
+  @apply
+  font-bold
+}
+
+.base .title {
+  @apply
+  text-blue-600
+}
+
+.warning {
+  @apply
+  bg-yellow-400
+  shadow-lg
+}
+
+.warning .title {
+  @apply
+  text-gray-700
+}
